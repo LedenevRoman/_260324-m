@@ -2,6 +2,7 @@ package org.example._2024_05_15;
 
 public class Main {
     public static void main(String[] args) {
+        // примитивные типы данных
         byte byteValue = 1;    // (-128 до 127)  1 байт
         short shortValue = 500; // (-32 768 до 32 767) 2 байт
         int intValue = 2000000; // (-2147483648 до 2147483647) 4 байта
@@ -20,5 +21,20 @@ public class Main {
 
         boolean boolValue1 = true; // тип данных для булевых значений, размер 1 байт
         boolean boolValue2 = false;
+
+        // не примитивные типы данных (ссылочные)
+        String stringValue = "Hello world";
+
+        Byte byteObj = 1;
+        Short shortObj = 600;
+        Integer integerObj = 100000;
+        Long longObj = 1_000_000_000L;
+
+        Float floatObj = 15.1234f;
+        Double doubleObj = 432.542;
+
+        Character charObj = 'Y';
+        Boolean booleanObj = true;
+
     }
 }
