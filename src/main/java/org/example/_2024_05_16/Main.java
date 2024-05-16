@@ -3,7 +3,7 @@ package org.example._2024_05_16;
 public class Main {
     public static void main(String[] args) {
         boolean isRainy = false;
-        double a = 2.0;
+        double a = 0;
         int b = 3;
 
         System.out.println(a == b);
@@ -49,9 +49,9 @@ public class Main {
         if (a > 10) {
             System.out.println("a > 10");
         } else if (a > 5) {
-            System.out.println("a > 5 and a < 10");
-        } else if (a > 0) {
-            System.out.println("a > 0 and a < 5");
+            System.out.println("a > 5 and a <= 10");
+        } else if (a >= 0) {
+            System.out.println("a >= 0 and a <= 5");
         } else {
             System.out.println("a is negative");
         }
@@ -67,7 +67,6 @@ public class Main {
             System.out.println("условие 1 и условие 2 выполняются");
         }
 
-
         // циклы
         //while
         int x = 0;
@@ -81,7 +80,6 @@ public class Main {
             System.out.println(i);
         }
 
-
         int countDown = 10;
 
         while (countDown >= 0) {
@@ -90,14 +88,14 @@ public class Main {
         }
         System.out.println("Поехали");
 
-/*        int d = 0;
+        int d = 0;
         while (true) {
             System.out.println(d);
             if (d == 1000000) {
                 break;
             }
             d++;
-        }*/
+        }
 
         int count = 11;
         do {
