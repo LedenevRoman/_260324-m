@@ -68,5 +68,43 @@ public class Main {
         }
 
 
+        // циклы
+        //while
+        int x = 0;
+        while (x <= 10) {
+            System.out.println(x);
+            x++;  // x = x + 1;  x += 1;
+        }
+
+        //for
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+
+        int countDown = 10;
+
+        while (countDown >= 0) {
+            System.out.println("До старта " + countDown);
+            countDown--;
+        }
+        System.out.println("Поехали");
+
+/*        int d = 0;
+        while (true) {
+            System.out.println(d);
+            if (d == 1000000) {
+                break;
+            }
+            d++;
+        }*/
+
+        int count = 11;
+        do {
+            System.out.println("count = " + count);
+            count++;
+        } while (count < 11);
     }
+
+
 }
