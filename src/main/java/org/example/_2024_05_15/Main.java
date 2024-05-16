@@ -14,9 +14,10 @@ public class Main {
         System.out.println(floatValue);
         System.out.println(doubleValue);
 
+        int c = 65;
         char charValue = 's';  // тип данных для символов с использованием значений из Unicode, размер 2 байта
         char charUnicodeX16 = '\u0065';
-        char charUnicodeX10 = (char) 65;
+        char charUnicodeX10 = (char) c;
         System.out.println(charUnicodeX16);
 
         boolean boolValue1 = true; // тип данных для булевых значений, размер 1 байт
