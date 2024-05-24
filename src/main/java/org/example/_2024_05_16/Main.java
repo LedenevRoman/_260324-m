@@ -103,6 +103,4 @@ public class Main {
             count++;
         } while (count < 11);
     }
-
-
 }
